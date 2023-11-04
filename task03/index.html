@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Чат на основе эхо-сервера</title>
+  </head>
+  <body>
+    <div>
+      <h4 class="text-muted ml-3 mt-3 mr-3 mb-5">
+        Чтобы начать/закончить переписку выберите опцию:
+        <button type="button" class="btn btn-success ml-3 mr-3 j-btn-open">
+          Начать
+        </button>
+        <button type="button" class="btn btn-danger j-btn-close">
+          Закончить
+        </button>
+      </h4>
+    </div>
+    <div class="input-group mb-3 mt-3 ml-3 w-50">
+      <input
+        type="text"
+        class="form-control j-input"
+        placeholder="Здесь вводится текст сообщения"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary j-btn-send-message"
+          type="button"
+        >
+          Отправить
+        </button>
+        <button
+          class="btn btn-outline-secondary j-btn-send-geo-pos"
+          type="button"
+        >
+          Геолокация
+        </button>
+      </div>
+    </div>
+
+    <div class="ml-3 mt-5 p-2 j-message-field message-field"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

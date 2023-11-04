@@ -1,0 +1,40 @@
+.container {
+  max-width: 1293px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-example {
+  margin: 20px auto;
+  max-width: 150px;
+}
+
+.btn {
+  display: flex;
+  background-color: rgba(93, 74, 111, 0.728);
+  color: #ffffffd9;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn .bi-arrow-down-left-circle {
+  display: block;
+}
+.btn .bi-arrow-down-left-circle-fill {
+  display: none;
+}
+
+.btn.btn--toggle .bi-arrow-down-left-circle {
+  display: none;
+}
+.btn.btn--toggle .bi-arrow-down-left-circle-fill {
+  display: block;
+}
+
+.svg-block {
+  margin-left: 15px;
+  padding-top: 2px;
+}

@@ -1,0 +1,5 @@
+.message-field {
+  max-width: 650px;
+  min-height: 200px;
+  border: 2px solid #6d757d;
+}
